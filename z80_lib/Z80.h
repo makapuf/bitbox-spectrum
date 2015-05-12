@@ -13,13 +13,10 @@
 #ifndef Z80_H
 #define Z80_H
 
-#include "stm32f4xx.h"
+ #include <stdint.h>
 
 
-// Defines von UB (WICHTIG!!)
-#define  EXECZ80
-#define  LSB_FIRST
-
+#define  EXECZ80 // run a few cycles
 
 #ifdef __cplusplus
 extern "C" {
@@ -27,8 +24,8 @@ extern "C" {
 
                                /* Compilation options:       */
 /* #define DEBUG */            /* Compile debugging version  */
-/* #define LSB_FIRST */        /* Compile for low-endian CPU */
-/* #define MSB_FIRST */        /* Compile for hi-endian CPU  */
+#define LSB_FIRST         /* Compile for low-endian CPU */
+// #define MSB_FIRST         /* Compile for hi-endian CPU  */
 
                                /* LoopZ80() may return:      */
 #define INT_RST00   0x00C7     /* RST 00h                    */
