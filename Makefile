@@ -11,5 +11,5 @@ include $(BITBOX)/lib/bitbox.mk
 zx_couples.c: gen_zx_couples.py
 	python gen_zx_couples.py > $@
 
-title.scr: 
+title.scr: title.png
 	python img2scr.py title.png 
