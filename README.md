@@ -1,10 +1,13 @@
 BitboZx : a Bitbox Spectrum emulator !
 --------------------------------------
 
+![ZX emu screenshot](https://raw.githubusercontent.com/makapuf/bitbox-spectrum/master/title.png)
+
 Origin
 ======
 
-Inspiration from UB spectrum emulator, heavily modified for bitbox.
+Inspiration from [UB spectrum emulator](http://mikrocontroller.bplaced.net/wordpress/?page_id=3424), heavily modified for bitbox.
+
 ZX80 file Loading from UB routines.
 
 Keyboard
@@ -17,6 +20,9 @@ Arrows/RShift	Kempston Joystick
 Alt+Del		Reset
 Alt+AKLMT	Load Games ...
 Alt+PgUp/Dn	Turbo On/Off 
+
+![ZX emu screenshot](https://raw.githubusercontent.com/makapuf/bitbox-spectrum/master/keyb.png)
+
 
 Modifications
 =============
