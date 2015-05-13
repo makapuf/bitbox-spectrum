@@ -14,12 +14,12 @@ Keyboard
 ========
 (using QWERTY keyboard conventions)
 
-Left Shift 	caps shift
-Left Ctrl 	symbol shift
-Arrows/RShift	Kempston Joystick
-Alt+Del		Reset
-Alt+AKLMT	Load Games ...
-Alt+PgUp/Dn	Turbo On/Off 
+ * Left Shift 	caps shift
+ * Left Ctrl 	symbol shift
+ * Arrows/RShift	Kempston Joystick
+ * Alt+Del		Reset
+ * Alt+AKLMT	Load Games ...
+ * Alt+PgUp/Dn	Turbo On/Off 
 
 ![ZX emu screenshot](https://raw.githubusercontent.com/makapuf/bitbox-spectrum/master/keyb.png)
 
