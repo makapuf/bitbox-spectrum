@@ -3,6 +3,8 @@ BitboZx : a Bitbox Spectrum emulator !
 
 ![ZX emu screenshot](https://raw.githubusercontent.com/makapuf/bitbox-spectrum/master/title.png)
 
+See blog post : http://bitboxconsole.blogspot.fr/2015/05/zx-spectrum-emulator.html
+
 Origin
 ======
 

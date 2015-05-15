@@ -1,8 +1,18 @@
-//--------------------------------------------------------------
-// Authors    : UB+Makapuf
-// EMail    : mc-4u(@)t-online.de / makapuf2@gmail.com
-// Note : The unpack function does not check the file format when wrong format event . Crash !!
-//--------------------------------------------------------------
+// File     : zx_filetyp_z80.c
+// Datum    : 27.01.2014
+// Version  : 1.0
+// Autor    : UB
+// EMail    : mc-4u(@)t-online.de
+// Web      : www.mikrocontroller-4u.de
+// CPU      : STM32F429
+// IDE      : CooCox CoIDE 1.7.4
+// GCC      : 4.7 2012q4
+// Module   : keine
+// Funktion : Handle von ZX-Spectrum Files im Format "*.Z80"
+//
+// Hinweis  : Die Entpack-Funktion prueft NICHT das Fileformat
+//            beim falschem Format event. Systemabsturz !!
+// Translation : makapuf 
 
 //--------------------------------------------------------------
 // Includes
