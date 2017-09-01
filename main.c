@@ -31,7 +31,7 @@ int turbo=0;                         // set slow for games, by example, high in 
 uint8_t * volatile VRAM=Z80_RAM;     // What will be displayed. Generally ZX VRAM, can be changed for alt screens.
 // -------------------------------------------------------------------------------------------------
 
-int main(void)
+int bitbox_main(void)
 {
     // bitbox should already be initialized here
 

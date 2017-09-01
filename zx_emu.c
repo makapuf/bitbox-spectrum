@@ -2,6 +2,7 @@
 #include <string.h> // memcpy
 #include <stdint.h>
 #include "bitbox.h"
+#include "lib/events/events.h"
 
 #include "z80_lib/Z80.h"
 #include "zx_filetyp_z80.h"
@@ -19,11 +20,11 @@ extern const uint8_t rom_lunar_z80[];
 extern const uint8_t rom_manicm_z80[];
 extern const uint8_t rom_tintin_z80[]; 
 
-extern const uint16_t rom_aticatac_z80_len; 
-extern const uint16_t rom_knightlore_z80_len; 
-extern const uint16_t rom_lunar_z80_len; 
-extern const uint16_t rom_manicm_z80_len; 
-extern const uint16_t rom_tintin_z80_len; 
+extern const int rom_aticatac_z80_len; 
+extern const int rom_knightlore_z80_len; 
+extern const int rom_lunar_z80_len; 
+extern const int rom_manicm_z80_len; 
+extern const int rom_tintin_z80_len; 
 
 
 #define BASERAM 0x4000
