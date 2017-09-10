@@ -2,3 +2,4 @@
 *.elf
 build/
 icon.c
+*_sdl
