@@ -124,6 +124,7 @@ void zx_keyboard()
 {
     // matrix of keys in descending 0x10-0x01 order
     // already mapped. 
+    events_poll();
 
     // reset state
     for (int i=0;i<8;i++) 
@@ -155,7 +156,7 @@ void zx_keyboard()
             }
 
             // emulator special keys
-            if (e.kbd.mod & 0x04) { // ctrl-alt + ?
+            if (e.kbd.mod & 0x64) { // Ralt + ?
                 // turbo ? 
                 switch(e.kbd.key) {
                     case 76 : ResetZ80(&myCPU); break; // del : reset
@@ -166,11 +167,8 @@ void zx_keyboard()
                     case 23 : load_file('t'); break;
                 }
 
-
-                // A : load attic attac.
-                if (e.kbd.key==4) 
-                    load_file('a');
             }
+            
             // gamepad (emulated by keyboard : press)
             for (int i=0;i<5;i++)
                 if (e.kbd.key == kbd_gamepad[i]) 
