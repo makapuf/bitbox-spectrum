@@ -1,3 +1,4 @@
 *.bin
 *.elf
 build/
+icon.c
